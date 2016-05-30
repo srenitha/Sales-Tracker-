@@ -1,0 +1,15 @@
+package com.oswell.productapp;
+
+import android.app.Activity;
+
+import com.nostra13.universalimageloader.core.ImageLoader;
+
+/**
+ * @author Paresh Mayani (@pareshmayani)
+ */
+public abstract class BaseActivity extends Activity {
+
+	protected static ImageLoader imageLoader = ImageLoader.getInstance();
+	
+	
+}
